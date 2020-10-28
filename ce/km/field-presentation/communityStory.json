@@ -130,7 +130,26 @@
           "id": "yext/description"
         },
         {
+          "id": "yext/organizerEmail"
+        },
+        {
+          "id": "yext/videos",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "yext/landingPageUrl"
+        },
+        {
           "id": "c_goal"
+        },
+        {
+          "id": "c_localNonProfits"
+        },
+        {
+          "id": "c_primaryCTA"
+        },
+        {
+          "id": "c_promotingEvents"
         },
         {
           "id": "c_theme"
@@ -194,37 +213,6 @@
         }
       ],
       "entryType": "DIVIDER"
-    },
-    {
-      "displayName": "Contacts \u0026 Affiliations",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "yext/organizerEmail"
-        },
-        {
-          "id": "c_localNonProfits"
-        }
-      ]
-    },
-    {
-      "displayName": "CTAs, Promotions \u0026 Events",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "c_primaryCTA"
-        },
-        {
-          "id": "c_promotingEvents"
-        },
-        {
-          "id": "yext/landingPageUrl"
-        },
-        {
-          "id": "yext/videos",
-          "visibleOnAdd": true
-        }
-      ]
     },
     {
       "displayName": "Internal Use Only",

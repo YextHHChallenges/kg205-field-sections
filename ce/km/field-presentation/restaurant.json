@@ -220,45 +220,6 @@
           "id": "yext/additionalHoursText"
         },
         {
-          "id": "yext/geomodifier"
-        },
-        {
-          "id": "yext/impressum"
-        },
-        {
-          "id": "yext/neighborhood"
-        },
-        {
-          "id": "yext/blackOwnedBusiness"
-        },
-        {
-          "id": "c_restaurantType"
-        }
-      ]
-    },
-    {
-      "displayName": "Reservations, Delivery \u0026 Takeout",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "yext/acceptsReservations"
-        },
-        {
-          "id": "yext/pickupAndDeliveryServices"
-        },
-        {
-          "id": "c_deliveryDisclaimer"
-        },
-        {
-          "id": "c_deliveryHours"
-        }
-      ]
-    },
-    {
-      "displayName": "In-Dining Experience",
-      "entryType": "SECTION",
-      "fields": [
-        {
           "id": "yext/paymentOptions"
         },
         {
@@ -271,22 +232,43 @@
           "id": "yext/mealsServed"
         },
         {
-          "id": "c_restaurantFeatures"
-        }
-      ]
-    },
-    {
-      "displayName": "CTAs, Promotions \u0026 Events",
-      "entryType": "SECTION",
-      "fields": [
+          "id": "yext/geomodifier"
+        },
         {
-          "id": "c_primaryCTA"
+          "id": "yext/acceptsReservations"
+        },
+        {
+          "id": "yext/impressum"
+        },
+        {
+          "id": "yext/pickupAndDeliveryServices"
+        },
+        {
+          "id": "yext/neighborhood"
+        },
+        {
+          "id": "yext/blackOwnedBusiness"
+        },
+        {
+          "id": "c_deliveryDisclaimer"
+        },
+        {
+          "id": "c_deliveryHours"
         },
         {
           "id": "c_promotingEvents"
         },
         {
+          "id": "c_restaurantFeatures"
+        },
+        {
           "id": "c_restaurantPromotions"
+        },
+        {
+          "id": "c_restaurantType"
+        },
+        {
+          "id": "c_primaryCTA"
         }
       ]
     },
@@ -1123,6 +1105,9 @@
           "id": "yext/folder"
         },
         {
+          "id": "c_territory"
+        },
+        {
           "id": "yext/facebookLinkedAccount"
         },
         {
@@ -1154,9 +1139,6 @@
         },
         {
           "id": "yext/timezone"
-        },
-        {
-          "id": "c_territory"
         }
       ]
     },
