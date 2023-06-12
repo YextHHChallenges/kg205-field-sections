@@ -1297,9 +1297,6 @@
       ],
       "entryType": "SECTION",
       "fields": [
-        {
-          "id": "rankTrackingCompetitors"
-        }
       ]
     },
     {
@@ -1332,27 +1329,6 @@
       ],
       "entryType": "SECTION",
       "fields": [
-        {
-          "id": "rankTrackingEnabled"
-        },
-        {
-          "id": "rankTrackingFrequency"
-        },
-        {
-          "id": "rankTrackingKeywords"
-        },
-        {
-          "id": "customKeywords"
-        },
-        {
-          "id": "rankTrackingQueryTemplates"
-        },
-        {
-          "id": "alternateNames"
-        },
-        {
-          "id": "alternateWebsites"
-        },
         {
           "id": "rankTrackingSites"
         }
