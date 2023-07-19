@@ -960,9 +960,6 @@
           "id": "facebookVanityUrl"
         },
         {
-          "id": "facebookStoreId"
-        },
-        {
           "id": "facebookAbout"
         }
       ]
@@ -1114,9 +1111,6 @@
           "id": "labels"
         },
         {
-          "id": "foursquareLinkedAccount"
-        },
-        {
           "id": "gmbLinkedAccount"
         },
         {
@@ -1124,9 +1118,6 @@
         },
         {
           "id": "yelpLinkedAccount"
-        },
-        {
-          "id": "facebookParentPageId"
         },
         {
           "id": "googleAccountId"
@@ -1378,9 +1369,6 @@
         },
         {
           "id": "reviewGenerationUrl"
-        },
-        {
-          "id": "defaultReviewInviteTemplate"
         }
       ]
     }
