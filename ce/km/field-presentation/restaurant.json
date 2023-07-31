@@ -1,1376 +1,1374 @@
 {
-  "$id": "ce_restaurant",
-  "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
-  "entityType": "restaurant",
-  "displayName": "Restaurant",
-  "presentationEntries": [
-    {
-      "displayName": "Content",
-      "displayNameTranslations": [
+    "$id": "ce_restaurant",
+    "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
+    "entityType": "restaurant",
+    "displayName": "Restaurant",
+    "presentationEntries": [
         {
-          "localeCode": "it",
-          "value": "Contenuti"
+            "displayName": "Content",
+            "displayNameTranslations": [
+                {
+                    "localeCode": "it",
+                    "value": "Contenuti"
+                },
+                {
+                    "localeCode": "sv",
+                    "value": "Inneh\u00e5ll"
+                },
+                {
+                    "localeCode": "tr",
+                    "value": "\u0130\u00e7erik"
+                },
+                {
+                    "localeCode": "fr",
+                    "value": "Contenu"
+                },
+                {
+                    "localeCode": "ja",
+                    "value": "\u30b3\u30f3\u30c6\u30f3\u30c4"
+                },
+                {
+                    "localeCode": "cs",
+                    "value": "Obsah"
+                },
+                {
+                    "localeCode": "de",
+                    "value": "Inhalt"
+                },
+                {
+                    "localeCode": "hu",
+                    "value": "Tartalom"
+                },
+                {
+                    "localeCode": "fi",
+                    "value": "Sis\u00e4lt\u00f6"
+                },
+                {
+                    "localeCode": "sk",
+                    "value": "Obsah"
+                },
+                {
+                    "localeCode": "es",
+                    "value": "Contenido"
+                },
+                {
+                    "localeCode": "nl",
+                    "value": "Inhoud"
+                },
+                {
+                    "localeCode": "pt",
+                    "value": "Conte\u00fado"
+                }
+            ],
+            "entryType": "DIVIDER"
         },
         {
-          "localeCode": "sv",
-          "value": "Innehåll"
+            "displayName": "Core Information",
+            "displayNameTranslations": [
+                {
+                    "localeCode": "it",
+                    "value": "Informazioni essenziali"
+                },
+                {
+                    "localeCode": "sv",
+                    "value": "Huvudinformation"
+                },
+                {
+                    "localeCode": "tr",
+                    "value": "Temel Bilgiler"
+                },
+                {
+                    "localeCode": "fr",
+                    "value": "Informations principales"
+                },
+                {
+                    "localeCode": "ja",
+                    "value": "\u57fa\u672c\u60c5\u5831"
+                },
+                {
+                    "localeCode": "cs",
+                    "value": "Kl\u00ed\u010dov\u00e9 informace"
+                },
+                {
+                    "localeCode": "de",
+                    "value": "Grundlegende Informationen"
+                },
+                {
+                    "localeCode": "hu",
+                    "value": "Alapadatok"
+                },
+                {
+                    "localeCode": "fi",
+                    "value": "Keskeiset tiedot"
+                },
+                {
+                    "localeCode": "sk",
+                    "value": "Z\u00e1kladn\u00e9 inform\u00e1cie"
+                },
+                {
+                    "localeCode": "es",
+                    "value": "Informaci\u00f3n principal"
+                },
+                {
+                    "localeCode": "nl",
+                    "value": "Kerninformatie"
+                },
+                {
+                    "localeCode": "pt",
+                    "value": "Informa\u00e7\u00e3o principal"
+                }
+            ],
+            "entryType": "SECTION",
+            "fields": [
+                {
+                    "id": "name",
+                    "visibleOnAdd": true
+                },
+                {
+                    "id": "categories",
+                    "visibleOnAdd": true
+                },
+                {
+                    "id": "address",
+                    "visibleOnAdd": true
+                },
+                {
+                    "id": "addressHidden"
+                },
+                {
+                    "id": "serviceAreaPlaces"
+                },
+                {
+                    "id": "mainPhone",
+                    "visibleOnAdd": true
+                },
+                {
+                    "id": "featuredMessage",
+                    "visibleOnAdd": true
+                },
+                {
+                    "id": "entityId",
+                    "visibleOnAdd": true
+                }
+            ]
         },
         {
-          "localeCode": "tr",
-          "value": "İçerik"
+            "displayName": "Business Details",
+            "displayNameTranslations": [
+                {
+                    "localeCode": "it",
+                    "value": "Dettagli azienda"
+                },
+                {
+                    "localeCode": "sv",
+                    "value": "F\u00f6retagsinformation"
+                },
+                {
+                    "localeCode": "tr",
+                    "value": "\u0130\u015fletme Ayr\u0131nt\u0131lar\u0131"
+                },
+                {
+                    "localeCode": "fr",
+                    "value": "D\u00e9tails de l'entreprise"
+                },
+                {
+                    "localeCode": "ja",
+                    "value": "\u30d3\u30b8\u30cd\u30b9\u306e\u8a73\u7d30"
+                },
+                {
+                    "localeCode": "cs",
+                    "value": "Podrobnosti o\u00a0podniku"
+                },
+                {
+                    "localeCode": "de",
+                    "value": "Unternehmensdetails"
+                },
+                {
+                    "localeCode": "hu",
+                    "value": "V\u00e1llalkoz\u00e1s r\u00e9szletei"
+                },
+                {
+                    "localeCode": "fi",
+                    "value": "Yrityksen tiedot"
+                },
+                {
+                    "localeCode": "sk",
+                    "value": "Podrobnosti o podniku"
+                },
+                {
+                    "localeCode": "es",
+                    "value": "Detalles del negocio"
+                },
+                {
+                    "localeCode": "nl",
+                    "value": "Bedrijfsgegevens"
+                },
+                {
+                    "localeCode": "pt",
+                    "value": "Detalhes da empresa"
+                }
+            ],
+            "entryType": "SECTION",
+            "fields": [
+                {
+                    "id": "description"
+                },
+                {
+                    "id": "hours"
+                },
+                {
+                    "id": "additionalHoursText"
+                },
+                {
+                    "id": "paymentOptions"
+                },
+                {
+                    "id": "attire"
+                },
+                {
+                    "id": "priceRange"
+                },
+                {
+                    "id": "mealsServed"
+                },
+                {
+                    "id": "geomodifier"
+                },
+                {
+                    "id": "acceptsReservations"
+                },
+                {
+                    "id": "impressum"
+                },
+                {
+                    "id": "pickupAndDeliveryServices"
+                },
+                {
+                    "id": "neighborhood"
+                },
+                {
+                    "id": "blackOwnedBusiness"
+                },
+                {
+                    "id": "c_deliveryDisclaimer"
+                },
+                {
+                    "id": "c_deliveryHours"
+                },
+                {
+                    "id": "c_promotingEvents"
+                },
+                {
+                    "id": "c_restaurantFeatures"
+                },
+                {
+                    "id": "c_restaurantPromotions"
+                },
+                {
+                    "id": "c_restaurantType"
+                },
+                {
+                    "id": "c_primaryCTA"
+                }
+            ]
         },
         {
-          "localeCode": "fr",
-          "value": "Contenu"
+            "displayName": "Contact, Websites, and Apps",
+            "displayNameTranslations": [
+                {
+                    "localeCode": "it",
+                    "value": "Contatti, siti web e app"
+                },
+                {
+                    "localeCode": "sv",
+                    "value": "Kontakt, webbplatser och appar"
+                },
+                {
+                    "localeCode": "tr",
+                    "value": "\u0130leti\u015fim, Web Siteleri ve Uygulamalar"
+                },
+                {
+                    "localeCode": "fr",
+                    "value": "Contacts, sites Internet et applications"
+                },
+                {
+                    "localeCode": "ja",
+                    "value": "\u9023\u7d61\u5148\u3001\u30a6\u30a7\u30d6\u30b5\u30a4\u30c8\u3001\u30a2\u30d7\u30ea"
+                },
+                {
+                    "localeCode": "cs",
+                    "value": "Kontakt, webov\u00e9 str\u00e1nky a aplikace"
+                },
+                {
+                    "localeCode": "de",
+                    "value": "Kontakt, Websites und Apps"
+                },
+                {
+                    "localeCode": "hu",
+                    "value": "Kapcsolat, webhelyek \u00e9s alkalmaz\u00e1sok"
+                },
+                {
+                    "localeCode": "fi",
+                    "value": "Yhteystiedot, verkkosivustot ja sovellukset"
+                },
+                {
+                    "localeCode": "en",
+                    "value": "Contact, Websites and Apps"
+                },
+                {
+                    "localeCode": "sk",
+                    "value": "Kontakt, webov\u00e9 str\u00e1nky a aplik\u00e1cie"
+                },
+                {
+                    "localeCode": "es",
+                    "value": "Contacto, sitios web y apps"
+                },
+                {
+                    "localeCode": "nl",
+                    "value": "Contact, websites en apps"
+                },
+                {
+                    "localeCode": "pt",
+                    "value": "Contacto, websites e aplica\u00e7\u00f5es"
+                }
+            ],
+            "entryType": "SECTION",
+            "fields": [
+                {
+                    "id": "emails"
+                },
+                {
+                    "id": "menuUrl"
+                },
+                {
+                    "id": "orderUrl"
+                },
+                {
+                    "id": "reservationUrl"
+                },
+                {
+                    "id": "websiteUrl"
+                },
+                {
+                    "id": "localPhone"
+                },
+                {
+                    "id": "alternatePhone"
+                },
+                {
+                    "id": "tollFreePhone"
+                },
+                {
+                    "id": "mobilePhone"
+                },
+                {
+                    "id": "fax"
+                },
+                {
+                    "id": "ttyPhone"
+                },
+                {
+                    "id": "iosAppUrl"
+                },
+                {
+                    "id": "androidAppUrl"
+                }
+            ]
         },
         {
-          "localeCode": "ja",
-          "value": "コンテンツ"
+            "displayName": "Media",
+            "displayNameTranslations": [
+                {
+                    "localeCode": "tr",
+                    "value": "Medya"
+                },
+                {
+                    "localeCode": "fr",
+                    "value": "M\u00e9dias"
+                },
+                {
+                    "localeCode": "ja",
+                    "value": "\u30e1\u30c7\u30a3\u30a2"
+                },
+                {
+                    "localeCode": "cs",
+                    "value": "M\u00e9dia"
+                },
+                {
+                    "localeCode": "de",
+                    "value": "Medium"
+                },
+                {
+                    "localeCode": "hu",
+                    "value": "M\u00e9dia"
+                },
+                {
+                    "localeCode": "sk",
+                    "value": "M\u00e9di\u00e1"
+                },
+                {
+                    "localeCode": "es",
+                    "value": "Multimedia"
+                },
+                {
+                    "localeCode": "pt",
+                    "value": "Meios de comunica\u00e7\u00e3o"
+                }
+            ],
+            "entryType": "SECTION",
+            "fields": [
+                {
+                    "id": "logo"
+                },
+                {
+                    "id": "photoGallery"
+                },
+                {
+                    "id": "videos"
+                }
+            ]
         },
         {
-          "localeCode": "cs",
-          "value": "Obsah"
+            "displayName": "Social Media",
+            "displayNameTranslations": [
+                {
+                    "localeCode": "it",
+                    "value": "Social media"
+                },
+                {
+                    "localeCode": "sv",
+                    "value": "Social media"
+                },
+                {
+                    "localeCode": "tr",
+                    "value": "Sosyal Medya"
+                },
+                {
+                    "localeCode": "fr",
+                    "value": "R\u00e9seaux sociaux"
+                },
+                {
+                    "localeCode": "ja",
+                    "value": "\u30bd\u30fc\u30b7\u30e3\u30eb\u30e1\u30c7\u30a3\u30a2"
+                },
+                {
+                    "localeCode": "cs",
+                    "value": "Soci\u00e1ln\u00ed s\u00edt\u011b"
+                },
+                {
+                    "localeCode": "hu",
+                    "value": "K\u00f6z\u00f6ss\u00e9gi m\u00e9dia"
+                },
+                {
+                    "localeCode": "fi",
+                    "value": "Sosiaalinen media"
+                },
+                {
+                    "localeCode": "sk",
+                    "value": "Soci\u00e1lne siete"
+                },
+                {
+                    "localeCode": "es",
+                    "value": "Redes sociales"
+                },
+                {
+                    "localeCode": "nl",
+                    "value": "Sociale Media"
+                },
+                {
+                    "localeCode": "pt",
+                    "value": "Redes sociais"
+                }
+            ],
+            "entryType": "SECTION",
+            "fields": [
+                {
+                    "id": "twitterHandle"
+                },
+                {
+                    "id": "facebookPageUrl"
+                },
+                {
+                    "id": "instagramHandle"
+                }
+            ]
         },
         {
-          "localeCode": "de",
-          "value": "Inhalt"
+            "displayName": "Frequently Asked Questions",
+            "displayNameTranslations": [
+                {
+                    "localeCode": "it",
+                    "value": "Domande frequenti"
+                },
+                {
+                    "localeCode": "sv",
+                    "value": "Vanliga fr\u00e5gor"
+                },
+                {
+                    "localeCode": "tr",
+                    "value": "S\u0131k\u00e7a Sorulan Sorular"
+                },
+                {
+                    "localeCode": "fr",
+                    "value": "Foire aux questions"
+                },
+                {
+                    "localeCode": "ja",
+                    "value": "\u3088\u304f\u3042\u308b\u8cea\u554f"
+                },
+                {
+                    "localeCode": "cs",
+                    "value": "\u010casto kladen\u00e9 ot\u00e1zky"
+                },
+                {
+                    "localeCode": "de",
+                    "value": "H\u00e4ufig gestellte Fragen"
+                },
+                {
+                    "localeCode": "hu",
+                    "value": "Gyakori k\u00e9rd\u00e9sek"
+                },
+                {
+                    "localeCode": "fi",
+                    "value": "Usein kysyttyj\u00e4 kysymyksi\u00e4"
+                },
+                {
+                    "localeCode": "sk",
+                    "value": "\u010casto kladen\u00e9 ot\u00e1zky"
+                },
+                {
+                    "localeCode": "es",
+                    "value": "Preguntas m\u00e1s frecuentes"
+                },
+                {
+                    "localeCode": "nl",
+                    "value": "Veelgestelde vragen"
+                },
+                {
+                    "localeCode": "pt",
+                    "value": "Perguntas frequentes"
+                }
+            ],
+            "entryType": "SECTION",
+            "fields": [
+                {
+                    "id": "frequentlyAskedQuestions"
+                }
+            ]
         },
         {
-          "localeCode": "hu",
-          "value": "Tartalom"
+            "displayName": "Additional Attributes",
+            "displayNameTranslations": [
+                {
+                    "localeCode": "it",
+                    "value": "Attributi aggiuntivi"
+                },
+                {
+                    "localeCode": "sv",
+                    "value": "Tillkommande attribut"
+                },
+                {
+                    "localeCode": "tr",
+                    "value": "Ek \u00d6zellikler"
+                },
+                {
+                    "localeCode": "fr",
+                    "value": "Caract\u00e9ristiques suppl\u00e9mentaires"
+                },
+                {
+                    "localeCode": "ja",
+                    "value": "\u8ffd\u52a0\u5c5e\u6027"
+                },
+                {
+                    "localeCode": "cs",
+                    "value": "Dal\u0161\u00ed atributy"
+                },
+                {
+                    "localeCode": "de",
+                    "value": "Weitere Attribute"
+                },
+                {
+                    "localeCode": "hu",
+                    "value": "Tov\u00e1bbi attrib\u00fatumok"
+                },
+                {
+                    "localeCode": "fi",
+                    "value": "Lis\u00e4m\u00e4\u00e4reet"
+                },
+                {
+                    "localeCode": "sk",
+                    "value": "Dodato\u010dn\u00e9 vlastnosti"
+                },
+                {
+                    "localeCode": "es",
+                    "value": "Atributos adicionales"
+                },
+                {
+                    "localeCode": "nl",
+                    "value": "Aanvullende eigenschappen"
+                },
+                {
+                    "localeCode": "pt",
+                    "value": "Atributos adicionais"
+                }
+            ],
+            "entryType": "SECTION",
+            "fields": [
+                {
+                    "id": "yearEstablished"
+                },
+                {
+                    "id": "services"
+                },
+                {
+                    "id": "associations"
+                },
+                {
+                    "id": "specialities"
+                },
+                {
+                    "id": "brands"
+                },
+                {
+                    "id": "languages"
+                },
+                {
+                    "id": "keywords"
+                }
+            ]
         },
         {
-          "localeCode": "fi",
-          "value": "Sisältö"
+            "displayName": "Landing Pages",
+            "displayNameTranslations": [
+                {
+                    "localeCode": "it",
+                    "value": "Landing Page"
+                },
+                {
+                    "localeCode": "tr",
+                    "value": "A\u00e7\u0131l\u0131\u015f Sayfalar\u0131"
+                },
+                {
+                    "localeCode": "fr",
+                    "value": "Landing pages"
+                },
+                {
+                    "localeCode": "ja",
+                    "value": "\u30e9\u30f3\u30c7\u30a3\u30f3\u30b0\u30da\u30fc\u30b8"
+                },
+                {
+                    "localeCode": "cs",
+                    "value": "\u00davodn\u00ed str\u00e1nky"
+                },
+                {
+                    "localeCode": "de",
+                    "value": "Landingpages"
+                },
+                {
+                    "localeCode": "hu",
+                    "value": "Kezd\u0151lapok"
+                },
+                {
+                    "localeCode": "nl",
+                    "value": "Landingspagina's"
+                },
+                {
+                    "localeCode": "pt",
+                    "value": "P\u00e1ginas iniciais"
+                }
+            ],
+            "entryType": "SECTION",
+            "fields": [
+                {
+                    "id": "landingPageUrl"
+                }
+            ]
         },
         {
-          "localeCode": "sk",
-          "value": "Obsah"
+            "displayName": "Publisher Specific",
+            "displayNameTranslations": [
+                {
+                    "localeCode": "it",
+                    "value": "Specifico per publisher"
+                },
+                {
+                    "localeCode": "sv",
+                    "value": "Utgivarspecifik"
+                },
+                {
+                    "localeCode": "tr",
+                    "value": "Yay\u0131nc\u0131ya \u00d6zel"
+                },
+                {
+                    "localeCode": "fr",
+                    "value": "Sp\u00e9cifique \u00e0 l'annuaire"
+                },
+                {
+                    "localeCode": "ja",
+                    "value": "\u30d1\u30d6\u30ea\u30c3\u30b7\u30e3\u30fc\u56fa\u6709"
+                },
+                {
+                    "localeCode": "cs",
+                    "value": "Pro konkr\u00e9tn\u00ed vydavatele"
+                },
+                {
+                    "localeCode": "de",
+                    "value": "Publisher-spezifisch"
+                },
+                {
+                    "localeCode": "hu",
+                    "value": "Tudakoz\u00f3specifikus"
+                },
+                {
+                    "localeCode": "fi",
+                    "value": "Julkaisusivustokohtainen"
+                },
+                {
+                    "localeCode": "sk",
+                    "value": "Vz\u0165ahuj\u00face sa na zverej\u0148ovate\u013ea"
+                },
+                {
+                    "localeCode": "es",
+                    "value": "Espec\u00edfico del medio digital"
+                },
+                {
+                    "localeCode": "nl",
+                    "value": "Specifiek voor uitgever"
+                },
+                {
+                    "localeCode": "pt",
+                    "value": "Espec\u00edficas do editor"
+                }
+            ],
+            "entryType": "DIVIDER"
         },
         {
-          "localeCode": "es",
-          "value": "Contenido"
+            "displayName": "Google My Business Fields",
+            "displayNameTranslations": [
+                {
+                    "localeCode": "it",
+                    "value": "Campi Google My Business"
+                },
+                {
+                    "localeCode": "sv",
+                    "value": "Google My Business-f\u00e4lt"
+                },
+                {
+                    "localeCode": "tr",
+                    "value": "Google \u0130\u015fletmem Alanlar\u0131"
+                },
+                {
+                    "localeCode": "fr",
+                    "value": "Champs Google My Business"
+                },
+                {
+                    "localeCode": "ja",
+                    "value": "Google\u30de\u30a4\u30d3\u30b8\u30cd\u30b9\u306e\u9805\u76ee"
+                },
+                {
+                    "localeCode": "cs",
+                    "value": "Pole Moje firma na Googlu"
+                },
+                {
+                    "localeCode": "de",
+                    "value": "Google My Business-Felder"
+                },
+                {
+                    "localeCode": "hu",
+                    "value": "Google My Business mez\u0151k"
+                },
+                {
+                    "localeCode": "fi",
+                    "value": "Google My Business -kent\u00e4t"
+                },
+                {
+                    "localeCode": "sk",
+                    "value": "Polia slu\u017eby Google My Business"
+                },
+                {
+                    "localeCode": "es",
+                    "value": "Campos de Google My Business"
+                },
+                {
+                    "localeCode": "nl",
+                    "value": "Velden voor Google Mijn Bedrijf"
+                },
+                {
+                    "localeCode": "pt",
+                    "value": "Campos do Google My Business"
+                }
+            ],
+            "entryType": "SECTION",
+            "fields": [
+                {
+                    "id": "googleShortName"
+                },
+                {
+                    "id": "googleCoverPhoto"
+                },
+                {
+                    "id": "googleProfilePhoto"
+                },
+                {
+                    "id": "googlePlaceId"
+                },
+                {
+                    "id": "googleMyBusinessLabels"
+                }
+            ]
         },
         {
-          "localeCode": "nl",
-          "value": "Inhoud"
+            "displayName": "Google My Business Attributes",
+            "displayNameTranslations": [
+                {
+                    "localeCode": "it",
+                    "value": "Attributi di Google My Business"
+                },
+                {
+                    "localeCode": "sv",
+                    "value": "Google My Business-attribut"
+                },
+                {
+                    "localeCode": "tr",
+                    "value": "Google \u0130\u015fletmem \u00d6zellikleri"
+                },
+                {
+                    "localeCode": "fr",
+                    "value": "Caract\u00e9ristiques Google My Business"
+                },
+                {
+                    "localeCode": "ja",
+                    "value": "Google\u30de\u30a4\u30d3\u30b8\u30cd\u30b9\u306e\u5c5e\u6027"
+                },
+                {
+                    "localeCode": "cs",
+                    "value": "Atributy ve slu\u017eb\u011b Moje firma na Googlu"
+                },
+                {
+                    "localeCode": "de",
+                    "value": "Google My Business-Attribute"
+                },
+                {
+                    "localeCode": "hu",
+                    "value": "Google My Business jellemz\u0151k"
+                },
+                {
+                    "localeCode": "fi",
+                    "value": "Google My Business -m\u00e4\u00e4reet"
+                },
+                {
+                    "localeCode": "sk",
+                    "value": "Atrib\u00faty slu\u017eby Google My Business"
+                },
+                {
+                    "localeCode": "es",
+                    "value": "Atributos de Google My Business"
+                },
+                {
+                    "localeCode": "nl",
+                    "value": "Attributen voor Google Mijn Bedrijf"
+                },
+                {
+                    "localeCode": "pt",
+                    "value": "Atributos do Google My Business"
+                }
+            ],
+            "entryType": "SECTION",
+            "fields": [
+                {
+                    "id": "googleAttributes"
+                }
+            ]
         },
         {
-          "localeCode": "pt",
-          "value": "Conteúdo"
+            "displayName": "Facebook Fields",
+            "displayNameTranslations": [
+                {
+                    "localeCode": "it",
+                    "value": "Campi Facebook"
+                },
+                {
+                    "localeCode": "sv",
+                    "value": "Facebook-f\u00e4lt"
+                },
+                {
+                    "localeCode": "tr",
+                    "value": "Facebook Alanlar\u0131"
+                },
+                {
+                    "localeCode": "fr",
+                    "value": "Champs Facebook"
+                },
+                {
+                    "localeCode": "ja",
+                    "value": "Facebook\u306e\u30d5\u30a3\u30fc\u30eb\u30c9"
+                },
+                {
+                    "localeCode": "cs",
+                    "value": "Pole na Facebooku"
+                },
+                {
+                    "localeCode": "de",
+                    "value": "Facebook-Felder"
+                },
+                {
+                    "localeCode": "hu",
+                    "value": "Facebook mez\u0151k"
+                },
+                {
+                    "localeCode": "fi",
+                    "value": "Facebook-kent\u00e4t"
+                },
+                {
+                    "localeCode": "sk",
+                    "value": "Polia slu\u017eby Facebook"
+                },
+                {
+                    "localeCode": "es",
+                    "value": "Campos de Facebook"
+                },
+                {
+                    "localeCode": "nl",
+                    "value": "Facebook-velden"
+                },
+                {
+                    "localeCode": "pt",
+                    "value": "Campos do Facebook"
+                }
+            ],
+            "entryType": "SECTION",
+            "fields": [
+                {
+                    "id": "facebookCoverPhoto"
+                },
+                {
+                    "id": "facebookProfilePhoto"
+                },
+                {
+                    "id": "facebookCallToAction"
+                },
+                {
+                    "id": "facebookOverrideCity"
+                },
+                {
+                    "id": "facebookName"
+                },
+                {
+                    "id": "facebookDescriptor"
+                },
+                {
+                    "id": "facebookVanityUrl"
+                },
+                {
+                    "id": "facebookAbout"
+                }
+            ]
+        },
+        {
+            "displayName": "Uber",
+            "entryType": "SECTION",
+            "fields": [
+                {
+                    "id": "uberLink"
+                },
+                {
+                    "id": "uberTripBranding"
+                },
+                {
+                    "id": "uberClientId"
+                }
+            ]
+        },
+        {
+            "displayName": "Other",
+            "displayNameTranslations": [
+                {
+                    "localeCode": "it",
+                    "value": "Altro"
+                },
+                {
+                    "localeCode": "sv",
+                    "value": "Annan"
+                },
+                {
+                    "localeCode": "tr",
+                    "value": "Di\u011fer"
+                },
+                {
+                    "localeCode": "fr",
+                    "value": "Autre"
+                },
+                {
+                    "localeCode": "ja",
+                    "value": "\u305d\u306e\u4ed6"
+                },
+                {
+                    "localeCode": "cs",
+                    "value": "Jin\u00e9"
+                },
+                {
+                    "localeCode": "de",
+                    "value": "Sonstige"
+                },
+                {
+                    "localeCode": "hu",
+                    "value": "Egy\u00e9b"
+                },
+                {
+                    "localeCode": "fi",
+                    "value": "Muu"
+                },
+                {
+                    "localeCode": "sk",
+                    "value": "In\u00e9"
+                },
+                {
+                    "localeCode": "es",
+                    "value": "Otro"
+                },
+                {
+                    "localeCode": "nl",
+                    "value": "Overig"
+                },
+                {
+                    "localeCode": "pt",
+                    "value": "Outro"
+                }
+            ],
+            "entryType": "DIVIDER"
+        },
+        {
+            "displayName": "Internal Use Only",
+            "displayNameTranslations": [
+                {
+                    "localeCode": "it",
+                    "value": "Solo per uso interno"
+                },
+                {
+                    "localeCode": "sv",
+                    "value": "Endast f\u00f6r internt bruk"
+                },
+                {
+                    "localeCode": "tr",
+                    "value": "Yaln\u0131zca Dahili Kullan\u0131m"
+                },
+                {
+                    "localeCode": "fr",
+                    "value": "Usage interne uniquement"
+                },
+                {
+                    "localeCode": "ja",
+                    "value": "\u5185\u90e8\u4f7f\u7528\u9805\u76ee"
+                },
+                {
+                    "localeCode": "cs",
+                    "value": "Pouze k\u00a0intern\u00edm \u00fa\u010del\u016fm"
+                },
+                {
+                    "localeCode": "de",
+                    "value": "Nur zur internen Verwendung"
+                },
+                {
+                    "localeCode": "hu",
+                    "value": "Csak bels\u0151 haszn\u00e1latra"
+                },
+                {
+                    "localeCode": "fi",
+                    "value": "Vain sis\u00e4iseen k\u00e4ytt\u00f6\u00f6n"
+                },
+                {
+                    "localeCode": "sk",
+                    "value": "Len pre intern\u00e9 potreby"
+                },
+                {
+                    "localeCode": "es",
+                    "value": "Solo para uso interno"
+                },
+                {
+                    "localeCode": "nl",
+                    "value": "Alleen voor intern gebruik"
+                },
+                {
+                    "localeCode": "pt",
+                    "value": "Apenas para utiliza\u00e7\u00e3o interna"
+                }
+            ],
+            "entryType": "SECTION",
+            "fields": [
+                {
+                    "id": "closed"
+                },
+                {
+                    "id": "folder"
+                },
+                {
+                    "id": "c_territory"
+                },
+                {
+                    "id": "facebookLinkedAccount"
+                },
+                {
+                    "id": "labels"
+                },
+                {
+                    "id": "gmbLinkedAccount"
+                },
+                {
+                    "id": "wechatLinkedAccount"
+                },
+                {
+                    "id": "yelpLinkedAccount"
+                },
+                {
+                    "id": "googleAccountId"
+                },
+                {
+                    "id": "isoRegionCode"
+                },
+                {
+                    "id": "deliverListingsWithoutGeocode"
+                },
+                {
+                    "id": "timezone"
+                }
+            ]
+        },
+        {
+            "displayName": "Settings",
+            "displayNameTranslations": [
+                {
+                    "localeCode": "it",
+                    "value": "Impostazioni"
+                },
+                {
+                    "localeCode": "sv",
+                    "value": "Inst\u00e4llningar"
+                },
+                {
+                    "localeCode": "tr",
+                    "value": "Ayarlar"
+                },
+                {
+                    "localeCode": "fr",
+                    "value": "Param\u00e8tres"
+                },
+                {
+                    "localeCode": "ja",
+                    "value": "\u8a2d\u5b9a"
+                },
+                {
+                    "localeCode": "cs",
+                    "value": "Nastaven\u00ed"
+                },
+                {
+                    "localeCode": "de",
+                    "value": "Einstellungen"
+                },
+                {
+                    "localeCode": "hu",
+                    "value": "Be\u00e1ll\u00edt\u00e1sok"
+                },
+                {
+                    "localeCode": "fi",
+                    "value": "Asetukset"
+                },
+                {
+                    "localeCode": "sk",
+                    "value": "Nastavenia"
+                },
+                {
+                    "localeCode": "es",
+                    "value": "Ajustes"
+                },
+                {
+                    "localeCode": "nl",
+                    "value": "Instellingen"
+                },
+                {
+                    "localeCode": "pt",
+                    "value": "Defini\u00e7\u00f5es"
+                }
+            ],
+            "entryType": "DIVIDER"
+        },
+        {
+            "displayName": "Knowledge Assistant",
+            "displayNameTranslations": [
+                {
+                    "localeCode": "tr",
+                    "value": "Bilgi Asistan\u0131"
+                },
+                {
+                    "localeCode": "fr",
+                    "value": "Assistant Knowledge"
+                },
+                {
+                    "localeCode": "ja",
+                    "value": "\u30ca\u30ec\u30c3\u30b8\u30a2\u30b7\u30b9\u30bf\u30f3\u30c8"
+                },
+                {
+                    "localeCode": "pt",
+                    "value": "Assistente de informa\u00e7\u00e3o"
+                }
+            ],
+            "entryType": "SECTION",
+            "fields": [
+                {
+                    "id": "primaryConversationContact"
+                },
+                {
+                    "id": "holidayHoursConversationEnabled"
+                },
+                {
+                    "id": "reviewResponseConversationEnabled"
+                },
+                {
+                    "id": "nudgeEnabled"
+                },
+                {
+                    "id": "questionsAndAnswers"
+                }
+            ]
+        },
+        {
+            "displayName": "Competitors",
+            "displayNameTranslations": [
+                {
+                    "localeCode": "it",
+                    "value": "Concorrenza"
+                },
+                {
+                    "localeCode": "sv",
+                    "value": "Konkurrenter"
+                },
+                {
+                    "localeCode": "tr",
+                    "value": "Yar\u0131\u015fmac\u0131lar"
+                },
+                {
+                    "localeCode": "fr",
+                    "value": "Concurrents"
+                },
+                {
+                    "localeCode": "ja",
+                    "value": "\u7af6\u5408\u4ed6\u793e"
+                },
+                {
+                    "localeCode": "cs",
+                    "value": "Konkurence"
+                },
+                {
+                    "localeCode": "de",
+                    "value": "Wettbewerber"
+                },
+                {
+                    "localeCode": "hu",
+                    "value": "Versenyt\u00e1rsak"
+                },
+                {
+                    "localeCode": "fi",
+                    "value": "Kilpailijat"
+                },
+                {
+                    "localeCode": "sk",
+                    "value": "Konkurenti"
+                },
+                {
+                    "localeCode": "es",
+                    "value": "Competencia"
+                },
+                {
+                    "localeCode": "nl",
+                    "value": "Concurrenten"
+                },
+                {
+                    "localeCode": "pt",
+                    "value": "Concorrentes"
+                }
+            ],
+            "entryType": "SECTION",
+            "fields": []
+        },
+        {
+            "displayName": "Search Tracker",
+            "displayNameTranslations": [
+                {
+                    "localeCode": "tr",
+                    "value": "Arama \u0130zleyici"
+                },
+                {
+                    "localeCode": "fr",
+                    "value": "Suivi des recherches"
+                },
+                {
+                    "localeCode": "cs",
+                    "value": "Sledov\u00e1n\u00ed vyhled\u00e1va\u010d\u016f"
+                },
+                {
+                    "localeCode": "hu",
+                    "value": "Keres\u00e9sk\u00f6vet\u0151"
+                },
+                {
+                    "localeCode": "fi",
+                    "value": "Hakujen seuraaja"
+                },
+                {
+                    "localeCode": "pt",
+                    "value": "Controlador de pesquisa"
+                }
+            ],
+            "entryType": "SECTION",
+            "fields": []
+        },
+        {
+            "displayName": "Review Generation",
+            "displayNameTranslations": [
+                {
+                    "localeCode": "tr",
+                    "value": "De\u011ferlendirme Olu\u015fturma"
+                },
+                {
+                    "localeCode": "cs",
+                    "value": "Pozv\u00e1nka k\u00a0recenzi"
+                },
+                {
+                    "localeCode": "de",
+                    "value": "Generierung von Reviews"
+                },
+                {
+                    "localeCode": "hu",
+                    "value": "V\u00e9lem\u00e9ny l\u00e9trehoz\u00e1sa"
+                },
+                {
+                    "localeCode": "fi",
+                    "value": "Arvostelun generointi"
+                },
+                {
+                    "localeCode": "sk",
+                    "value": "Vytvorenie recenzie"
+                },
+                {
+                    "localeCode": "es",
+                    "value": "Generaci\u00f3n de rese\u00f1as"
+                },
+                {
+                    "localeCode": "nl",
+                    "value": "Reviews genereren"
+                },
+                {
+                    "localeCode": "pt",
+                    "value": "Cria\u00e7\u00e3o de opini\u00e3o"
+                }
+            ],
+            "entryType": "SECTION",
+            "fields": [
+                {
+                    "id": "firstPartyReviewPage"
+                },
+                {
+                    "id": "reviewGenerationUrl"
+                }
+            ]
         }
-      ],
-      "entryType": "DIVIDER"
-    },
-    {
-      "displayName": "Core Information",
-      "displayNameTranslations": [
-        {
-          "localeCode": "it",
-          "value": "Informazioni essenziali"
-        },
-        {
-          "localeCode": "sv",
-          "value": "Huvudinformation"
-        },
-        {
-          "localeCode": "tr",
-          "value": "Temel Bilgiler"
-        },
-        {
-          "localeCode": "fr",
-          "value": "Informations principales"
-        },
-        {
-          "localeCode": "ja",
-          "value": "基本情報"
-        },
-        {
-          "localeCode": "cs",
-          "value": "Klíčové informace"
-        },
-        {
-          "localeCode": "de",
-          "value": "Grundlegende Informationen"
-        },
-        {
-          "localeCode": "hu",
-          "value": "Alapadatok"
-        },
-        {
-          "localeCode": "fi",
-          "value": "Keskeiset tiedot"
-        },
-        {
-          "localeCode": "sk",
-          "value": "Základné informácie"
-        },
-        {
-          "localeCode": "es",
-          "value": "Información principal"
-        },
-        {
-          "localeCode": "nl",
-          "value": "Kerninformatie"
-        },
-        {
-          "localeCode": "pt",
-          "value": "Informação principal"
-        }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "name",
-          "visibleOnAdd": true
-        },
-        {
-          "id": "categories",
-          "visibleOnAdd": true
-        },
-        {
-          "id": "address",
-          "visibleOnAdd": true
-        },
-        {
-          "id": "addressHidden"
-        },
-        {
-          "id": "serviceAreaPlaces"
-        },
-        {
-          "id": "mainPhone",
-          "visibleOnAdd": true
-        },
-        {
-          "id": "featuredMessage",
-          "visibleOnAdd": true
-        },
-        {
-          "id": "entityId",
-          "visibleOnAdd": true
-        }
-      ]
-    },
-    {
-      "displayName": "Business Details",
-      "displayNameTranslations": [
-        {
-          "localeCode": "it",
-          "value": "Dettagli azienda"
-        },
-        {
-          "localeCode": "sv",
-          "value": "Företagsinformation"
-        },
-        {
-          "localeCode": "tr",
-          "value": "İşletme Ayrıntıları"
-        },
-        {
-          "localeCode": "fr",
-          "value": "Détails de l\u0027entreprise"
-        },
-        {
-          "localeCode": "ja",
-          "value": "ビジネスの詳細"
-        },
-        {
-          "localeCode": "cs",
-          "value": "Podrobnosti o podniku"
-        },
-        {
-          "localeCode": "de",
-          "value": "Unternehmensdetails"
-        },
-        {
-          "localeCode": "hu",
-          "value": "Vállalkozás részletei"
-        },
-        {
-          "localeCode": "fi",
-          "value": "Yrityksen tiedot"
-        },
-        {
-          "localeCode": "sk",
-          "value": "Podrobnosti o podniku"
-        },
-        {
-          "localeCode": "es",
-          "value": "Detalles del negocio"
-        },
-        {
-          "localeCode": "nl",
-          "value": "Bedrijfsgegevens"
-        },
-        {
-          "localeCode": "pt",
-          "value": "Detalhes da empresa"
-        }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "description"
-        },
-        {
-          "id": "hours"
-        },
-        {
-          "id": "additionalHoursText"
-        },
-        {
-          "id": "paymentOptions"
-        },
-        {
-          "id": "attire"
-        },
-        {
-          "id": "priceRange"
-        },
-        {
-          "id": "mealsServed"
-        },
-        {
-          "id": "geomodifier"
-        },
-        {
-          "id": "acceptsReservations"
-        },
-        {
-          "id": "impressum"
-        },
-        {
-          "id": "pickupAndDeliveryServices"
-        },
-        {
-          "id": "neighborhood"
-        },
-        {
-          "id": "blackOwnedBusiness"
-        },
-        {
-          "id": "c_deliveryDisclaimer"
-        },
-        {
-          "id": "c_deliveryHours"
-        },
-        {
-          "id": "c_promotingEvents"
-        },
-        {
-          "id": "c_restaurantFeatures"
-        },
-        {
-          "id": "c_restaurantPromotions"
-        },
-        {
-          "id": "c_restaurantType"
-        },
-        {
-          "id": "c_primaryCTA"
-        }
-      ]
-    },
-    {
-      "displayName": "Contact, Websites, and Apps",
-      "displayNameTranslations": [
-        {
-          "localeCode": "it",
-          "value": "Contatti, siti web e app"
-        },
-        {
-          "localeCode": "sv",
-          "value": "Kontakt, webbplatser och appar"
-        },
-        {
-          "localeCode": "tr",
-          "value": "İletişim, Web Siteleri ve Uygulamalar"
-        },
-        {
-          "localeCode": "fr",
-          "value": "Contacts, sites Internet et applications"
-        },
-        {
-          "localeCode": "ja",
-          "value": "連絡先、ウェブサイト、アプリ"
-        },
-        {
-          "localeCode": "cs",
-          "value": "Kontakt, webové stránky a aplikace"
-        },
-        {
-          "localeCode": "de",
-          "value": "Kontakt, Websites und Apps"
-        },
-        {
-          "localeCode": "hu",
-          "value": "Kapcsolat, webhelyek és alkalmazások"
-        },
-        {
-          "localeCode": "fi",
-          "value": "Yhteystiedot, verkkosivustot ja sovellukset"
-        },
-        {
-          "localeCode": "en",
-          "value": "Contact, Websites and Apps"
-        },
-        {
-          "localeCode": "sk",
-          "value": "Kontakt, webové stránky a aplikácie"
-        },
-        {
-          "localeCode": "es",
-          "value": "Contacto, sitios web y apps"
-        },
-        {
-          "localeCode": "nl",
-          "value": "Contact, websites en apps"
-        },
-        {
-          "localeCode": "pt",
-          "value": "Contacto, websites e aplicações"
-        }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "emails"
-        },
-        {
-          "id": "menuUrl"
-        },
-        {
-          "id": "orderUrl"
-        },
-        {
-          "id": "reservationUrl"
-        },
-        {
-          "id": "websiteUrl"
-        },
-        {
-          "id": "localPhone"
-        },
-        {
-          "id": "alternatePhone"
-        },
-        {
-          "id": "tollFreePhone"
-        },
-        {
-          "id": "mobilePhone"
-        },
-        {
-          "id": "fax"
-        },
-        {
-          "id": "ttyPhone"
-        },
-        {
-          "id": "iosAppUrl"
-        },
-        {
-          "id": "androidAppUrl"
-        }
-      ]
-    },
-    {
-      "displayName": "Media",
-      "displayNameTranslations": [
-        {
-          "localeCode": "tr",
-          "value": "Medya"
-        },
-        {
-          "localeCode": "fr",
-          "value": "Médias"
-        },
-        {
-          "localeCode": "ja",
-          "value": "メディア"
-        },
-        {
-          "localeCode": "cs",
-          "value": "Média"
-        },
-        {
-          "localeCode": "de",
-          "value": "Medium"
-        },
-        {
-          "localeCode": "hu",
-          "value": "Média"
-        },
-        {
-          "localeCode": "sk",
-          "value": "Médiá"
-        },
-        {
-          "localeCode": "es",
-          "value": "Multimedia"
-        },
-        {
-          "localeCode": "pt",
-          "value": "Meios de comunicação"
-        }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "logo"
-        },
-        {
-          "id": "photoGallery"
-        },
-        {
-          "id": "videos"
-        }
-      ]
-    },
-    {
-      "displayName": "Social Media",
-      "displayNameTranslations": [
-        {
-          "localeCode": "it",
-          "value": "Social media"
-        },
-        {
-          "localeCode": "sv",
-          "value": "Social media"
-        },
-        {
-          "localeCode": "tr",
-          "value": "Sosyal Medya"
-        },
-        {
-          "localeCode": "fr",
-          "value": "Réseaux sociaux"
-        },
-        {
-          "localeCode": "ja",
-          "value": "ソーシャルメディア"
-        },
-        {
-          "localeCode": "cs",
-          "value": "Sociální sítě"
-        },
-        {
-          "localeCode": "hu",
-          "value": "Közösségi média"
-        },
-        {
-          "localeCode": "fi",
-          "value": "Sosiaalinen media"
-        },
-        {
-          "localeCode": "sk",
-          "value": "Sociálne siete"
-        },
-        {
-          "localeCode": "es",
-          "value": "Redes sociales"
-        },
-        {
-          "localeCode": "nl",
-          "value": "Sociale Media"
-        },
-        {
-          "localeCode": "pt",
-          "value": "Redes sociais"
-        }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "twitterHandle"
-        },
-        {
-          "id": "facebookPageUrl"
-        },
-        {
-          "id": "instagramHandle"
-        }
-      ]
-    },
-    {
-      "displayName": "Frequently Asked Questions",
-      "displayNameTranslations": [
-        {
-          "localeCode": "it",
-          "value": "Domande frequenti"
-        },
-        {
-          "localeCode": "sv",
-          "value": "Vanliga frågor"
-        },
-        {
-          "localeCode": "tr",
-          "value": "Sıkça Sorulan Sorular"
-        },
-        {
-          "localeCode": "fr",
-          "value": "Foire aux questions"
-        },
-        {
-          "localeCode": "ja",
-          "value": "よくある質問"
-        },
-        {
-          "localeCode": "cs",
-          "value": "Často kladené otázky"
-        },
-        {
-          "localeCode": "de",
-          "value": "Häufig gestellte Fragen"
-        },
-        {
-          "localeCode": "hu",
-          "value": "Gyakori kérdések"
-        },
-        {
-          "localeCode": "fi",
-          "value": "Usein kysyttyjä kysymyksiä"
-        },
-        {
-          "localeCode": "sk",
-          "value": "Často kladené otázky"
-        },
-        {
-          "localeCode": "es",
-          "value": "Preguntas más frecuentes"
-        },
-        {
-          "localeCode": "nl",
-          "value": "Veelgestelde vragen"
-        },
-        {
-          "localeCode": "pt",
-          "value": "Perguntas frequentes"
-        }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "frequentlyAskedQuestions"
-        }
-      ]
-    },
-    {
-      "displayName": "Additional Attributes",
-      "displayNameTranslations": [
-        {
-          "localeCode": "it",
-          "value": "Attributi aggiuntivi"
-        },
-        {
-          "localeCode": "sv",
-          "value": "Tillkommande attribut"
-        },
-        {
-          "localeCode": "tr",
-          "value": "Ek Özellikler"
-        },
-        {
-          "localeCode": "fr",
-          "value": "Caractéristiques supplémentaires"
-        },
-        {
-          "localeCode": "ja",
-          "value": "追加属性"
-        },
-        {
-          "localeCode": "cs",
-          "value": "Další atributy"
-        },
-        {
-          "localeCode": "de",
-          "value": "Weitere Attribute"
-        },
-        {
-          "localeCode": "hu",
-          "value": "További attribútumok"
-        },
-        {
-          "localeCode": "fi",
-          "value": "Lisämääreet"
-        },
-        {
-          "localeCode": "sk",
-          "value": "Dodatočné vlastnosti"
-        },
-        {
-          "localeCode": "es",
-          "value": "Atributos adicionales"
-        },
-        {
-          "localeCode": "nl",
-          "value": "Aanvullende eigenschappen"
-        },
-        {
-          "localeCode": "pt",
-          "value": "Atributos adicionais"
-        }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "yearEstablished"
-        },
-        {
-          "id": "services"
-        },
-        {
-          "id": "associations"
-        },
-        {
-          "id": "specialities"
-        },
-        {
-          "id": "brands"
-        },
-        {
-          "id": "languages"
-        },
-        {
-          "id": "keywords"
-        }
-      ]
-    },
-    {
-      "displayName": "Landing Pages",
-      "displayNameTranslations": [
-        {
-          "localeCode": "it",
-          "value": "Landing Page"
-        },
-        {
-          "localeCode": "tr",
-          "value": "Açılış Sayfaları"
-        },
-        {
-          "localeCode": "fr",
-          "value": "Landing pages"
-        },
-        {
-          "localeCode": "ja",
-          "value": "ランディングページ"
-        },
-        {
-          "localeCode": "cs",
-          "value": "Úvodní stránky"
-        },
-        {
-          "localeCode": "de",
-          "value": "Landingpages"
-        },
-        {
-          "localeCode": "hu",
-          "value": "Kezdőlapok"
-        },
-        {
-          "localeCode": "nl",
-          "value": "Landingspagina\u0027s"
-        },
-        {
-          "localeCode": "pt",
-          "value": "Páginas iniciais"
-        }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "landingPageUrl"
-        }
-      ]
-    },
-    {
-      "displayName": "Publisher Specific",
-      "displayNameTranslations": [
-        {
-          "localeCode": "it",
-          "value": "Specifico per publisher"
-        },
-        {
-          "localeCode": "sv",
-          "value": "Utgivarspecifik"
-        },
-        {
-          "localeCode": "tr",
-          "value": "Yayıncıya Özel"
-        },
-        {
-          "localeCode": "fr",
-          "value": "Spécifique à l\u0027annuaire"
-        },
-        {
-          "localeCode": "ja",
-          "value": "パブリッシャー固有"
-        },
-        {
-          "localeCode": "cs",
-          "value": "Pro konkrétní vydavatele"
-        },
-        {
-          "localeCode": "de",
-          "value": "Publisher-spezifisch"
-        },
-        {
-          "localeCode": "hu",
-          "value": "Tudakozóspecifikus"
-        },
-        {
-          "localeCode": "fi",
-          "value": "Julkaisusivustokohtainen"
-        },
-        {
-          "localeCode": "sk",
-          "value": "Vzťahujúce sa na zverejňovateľa"
-        },
-        {
-          "localeCode": "es",
-          "value": "Específico del medio digital"
-        },
-        {
-          "localeCode": "nl",
-          "value": "Specifiek voor uitgever"
-        },
-        {
-          "localeCode": "pt",
-          "value": "Específicas do editor"
-        }
-      ],
-      "entryType": "DIVIDER"
-    },
-    {
-      "displayName": "Google My Business Fields",
-      "displayNameTranslations": [
-        {
-          "localeCode": "it",
-          "value": "Campi Google My Business"
-        },
-        {
-          "localeCode": "sv",
-          "value": "Google My Business-fält"
-        },
-        {
-          "localeCode": "tr",
-          "value": "Google İşletmem Alanları"
-        },
-        {
-          "localeCode": "fr",
-          "value": "Champs Google My Business"
-        },
-        {
-          "localeCode": "ja",
-          "value": "Googleマイビジネスの項目"
-        },
-        {
-          "localeCode": "cs",
-          "value": "Pole Moje firma na Googlu"
-        },
-        {
-          "localeCode": "de",
-          "value": "Google My Business-Felder"
-        },
-        {
-          "localeCode": "hu",
-          "value": "Google My Business mezők"
-        },
-        {
-          "localeCode": "fi",
-          "value": "Google My Business -kentät"
-        },
-        {
-          "localeCode": "sk",
-          "value": "Polia služby Google My Business"
-        },
-        {
-          "localeCode": "es",
-          "value": "Campos de Google My Business"
-        },
-        {
-          "localeCode": "nl",
-          "value": "Velden voor Google Mijn Bedrijf"
-        },
-        {
-          "localeCode": "pt",
-          "value": "Campos do Google My Business"
-        }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "googleShortName"
-        },
-        {
-          "id": "googleCoverPhoto"
-        },
-        {
-          "id": "googleProfilePhoto"
-        },
-        {
-          "id": "googlePlaceId"
-        },
-        {
-          "id": "googleMyBusinessLabels"
-        }
-      ]
-    },
-    {
-      "displayName": "Google My Business Attributes",
-      "displayNameTranslations": [
-        {
-          "localeCode": "it",
-          "value": "Attributi di Google My Business"
-        },
-        {
-          "localeCode": "sv",
-          "value": "Google My Business-attribut"
-        },
-        {
-          "localeCode": "tr",
-          "value": "Google İşletmem Özellikleri"
-        },
-        {
-          "localeCode": "fr",
-          "value": "Caractéristiques Google My Business"
-        },
-        {
-          "localeCode": "ja",
-          "value": "Googleマイビジネスの属性"
-        },
-        {
-          "localeCode": "cs",
-          "value": "Atributy ve službě Moje firma na Googlu"
-        },
-        {
-          "localeCode": "de",
-          "value": "Google My Business-Attribute"
-        },
-        {
-          "localeCode": "hu",
-          "value": "Google My Business jellemzők"
-        },
-        {
-          "localeCode": "fi",
-          "value": "Google My Business -määreet"
-        },
-        {
-          "localeCode": "sk",
-          "value": "Atribúty služby Google My Business"
-        },
-        {
-          "localeCode": "es",
-          "value": "Atributos de Google My Business"
-        },
-        {
-          "localeCode": "nl",
-          "value": "Attributen voor Google Mijn Bedrijf"
-        },
-        {
-          "localeCode": "pt",
-          "value": "Atributos do Google My Business"
-        }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "googleAttributes"
-        }
-      ]
-    },
-    {
-      "displayName": "Facebook Fields",
-      "displayNameTranslations": [
-        {
-          "localeCode": "it",
-          "value": "Campi Facebook"
-        },
-        {
-          "localeCode": "sv",
-          "value": "Facebook-fält"
-        },
-        {
-          "localeCode": "tr",
-          "value": "Facebook Alanları"
-        },
-        {
-          "localeCode": "fr",
-          "value": "Champs Facebook"
-        },
-        {
-          "localeCode": "ja",
-          "value": "Facebookのフィールド"
-        },
-        {
-          "localeCode": "cs",
-          "value": "Pole na Facebooku"
-        },
-        {
-          "localeCode": "de",
-          "value": "Facebook-Felder"
-        },
-        {
-          "localeCode": "hu",
-          "value": "Facebook mezők"
-        },
-        {
-          "localeCode": "fi",
-          "value": "Facebook-kentät"
-        },
-        {
-          "localeCode": "sk",
-          "value": "Polia služby Facebook"
-        },
-        {
-          "localeCode": "es",
-          "value": "Campos de Facebook"
-        },
-        {
-          "localeCode": "nl",
-          "value": "Facebook-velden"
-        },
-        {
-          "localeCode": "pt",
-          "value": "Campos do Facebook"
-        }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "facebookCoverPhoto"
-        },
-        {
-          "id": "facebookProfilePhoto"
-        },
-        {
-          "id": "facebookCallToAction"
-        },
-        {
-          "id": "facebookOverrideCity"
-        },
-        {
-          "id": "facebookName"
-        },
-        {
-          "id": "facebookDescriptor"
-        },
-        {
-          "id": "facebookVanityUrl"
-        },
-        {
-          "id": "facebookAbout"
-        }
-      ]
-    },
-    {
-      "displayName": "Uber",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "uberLink"
-        },
-        {
-          "id": "uberTripBranding"
-        },
-        {
-          "id": "uberClientId"
-        }
-      ]
-    },
-    {
-      "displayName": "Other",
-      "displayNameTranslations": [
-        {
-          "localeCode": "it",
-          "value": "Altro"
-        },
-        {
-          "localeCode": "sv",
-          "value": "Annan"
-        },
-        {
-          "localeCode": "tr",
-          "value": "Diğer"
-        },
-        {
-          "localeCode": "fr",
-          "value": "Autre"
-        },
-        {
-          "localeCode": "ja",
-          "value": "その他"
-        },
-        {
-          "localeCode": "cs",
-          "value": "Jiné"
-        },
-        {
-          "localeCode": "de",
-          "value": "Sonstige"
-        },
-        {
-          "localeCode": "hu",
-          "value": "Egyéb"
-        },
-        {
-          "localeCode": "fi",
-          "value": "Muu"
-        },
-        {
-          "localeCode": "sk",
-          "value": "Iné"
-        },
-        {
-          "localeCode": "es",
-          "value": "Otro"
-        },
-        {
-          "localeCode": "nl",
-          "value": "Overig"
-        },
-        {
-          "localeCode": "pt",
-          "value": "Outro"
-        }
-      ],
-      "entryType": "DIVIDER"
-    },
-    {
-      "displayName": "Internal Use Only",
-      "displayNameTranslations": [
-        {
-          "localeCode": "it",
-          "value": "Solo per uso interno"
-        },
-        {
-          "localeCode": "sv",
-          "value": "Endast för internt bruk"
-        },
-        {
-          "localeCode": "tr",
-          "value": "Yalnızca Dahili Kullanım"
-        },
-        {
-          "localeCode": "fr",
-          "value": "Usage interne uniquement"
-        },
-        {
-          "localeCode": "ja",
-          "value": "内部使用項目"
-        },
-        {
-          "localeCode": "cs",
-          "value": "Pouze k interním účelům"
-        },
-        {
-          "localeCode": "de",
-          "value": "Nur zur internen Verwendung"
-        },
-        {
-          "localeCode": "hu",
-          "value": "Csak belső használatra"
-        },
-        {
-          "localeCode": "fi",
-          "value": "Vain sisäiseen käyttöön"
-        },
-        {
-          "localeCode": "sk",
-          "value": "Len pre interné potreby"
-        },
-        {
-          "localeCode": "es",
-          "value": "Solo para uso interno"
-        },
-        {
-          "localeCode": "nl",
-          "value": "Alleen voor intern gebruik"
-        },
-        {
-          "localeCode": "pt",
-          "value": "Apenas para utilização interna"
-        }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "closed"
-        },
-        {
-          "id": "folder"
-        },
-        {
-          "id": "c_territory"
-        },
-        {
-          "id": "facebookLinkedAccount"
-        },
-        {
-          "id": "labels"
-        },
-        {
-          "id": "gmbLinkedAccount"
-        },
-        {
-          "id": "wechatLinkedAccount"
-        },
-        {
-          "id": "yelpLinkedAccount"
-        },
-        {
-          "id": "googleAccountId"
-        },
-        {
-          "id": "isoRegionCode"
-        },
-        {
-          "id": "deliverListingsWithoutGeocode"
-        },
-        {
-          "id": "timezone"
-        }
-      ]
-    },
-    {
-      "displayName": "Settings",
-      "displayNameTranslations": [
-        {
-          "localeCode": "it",
-          "value": "Impostazioni"
-        },
-        {
-          "localeCode": "sv",
-          "value": "Inställningar"
-        },
-        {
-          "localeCode": "tr",
-          "value": "Ayarlar"
-        },
-        {
-          "localeCode": "fr",
-          "value": "Paramètres"
-        },
-        {
-          "localeCode": "ja",
-          "value": "設定"
-        },
-        {
-          "localeCode": "cs",
-          "value": "Nastavení"
-        },
-        {
-          "localeCode": "de",
-          "value": "Einstellungen"
-        },
-        {
-          "localeCode": "hu",
-          "value": "Beállítások"
-        },
-        {
-          "localeCode": "fi",
-          "value": "Asetukset"
-        },
-        {
-          "localeCode": "sk",
-          "value": "Nastavenia"
-        },
-        {
-          "localeCode": "es",
-          "value": "Ajustes"
-        },
-        {
-          "localeCode": "nl",
-          "value": "Instellingen"
-        },
-        {
-          "localeCode": "pt",
-          "value": "Definições"
-        }
-      ],
-      "entryType": "DIVIDER"
-    },
-    {
-      "displayName": "Knowledge Assistant",
-      "displayNameTranslations": [
-        {
-          "localeCode": "tr",
-          "value": "Bilgi Asistanı"
-        },
-        {
-          "localeCode": "fr",
-          "value": "Assistant Knowledge"
-        },
-        {
-          "localeCode": "ja",
-          "value": "ナレッジアシスタント"
-        },
-        {
-          "localeCode": "pt",
-          "value": "Assistente de informação"
-        }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "primaryConversationContact"
-        },
-        {
-          "id": "holidayHoursConversationEnabled"
-        },
-        {
-          "id": "reviewResponseConversationEnabled"
-        },
-        {
-          "id": "nudgeEnabled"
-        },
-        {
-          "id": "questionsAndAnswers"
-        }
-      ]
-    },
-    {
-      "displayName": "Competitors",
-      "displayNameTranslations": [
-        {
-          "localeCode": "it",
-          "value": "Concorrenza"
-        },
-        {
-          "localeCode": "sv",
-          "value": "Konkurrenter"
-        },
-        {
-          "localeCode": "tr",
-          "value": "Yarışmacılar"
-        },
-        {
-          "localeCode": "fr",
-          "value": "Concurrents"
-        },
-        {
-          "localeCode": "ja",
-          "value": "競合他社"
-        },
-        {
-          "localeCode": "cs",
-          "value": "Konkurence"
-        },
-        {
-          "localeCode": "de",
-          "value": "Wettbewerber"
-        },
-        {
-          "localeCode": "hu",
-          "value": "Versenytársak"
-        },
-        {
-          "localeCode": "fi",
-          "value": "Kilpailijat"
-        },
-        {
-          "localeCode": "sk",
-          "value": "Konkurenti"
-        },
-        {
-          "localeCode": "es",
-          "value": "Competencia"
-        },
-        {
-          "localeCode": "nl",
-          "value": "Concurrenten"
-        },
-        {
-          "localeCode": "pt",
-          "value": "Concorrentes"
-        }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-      ]
-    },
-    {
-      "displayName": "Search Tracker",
-      "displayNameTranslations": [
-        {
-          "localeCode": "tr",
-          "value": "Arama İzleyici"
-        },
-        {
-          "localeCode": "fr",
-          "value": "Suivi des recherches"
-        },
-        {
-          "localeCode": "cs",
-          "value": "Sledování vyhledávačů"
-        },
-        {
-          "localeCode": "hu",
-          "value": "Kereséskövető"
-        },
-        {
-          "localeCode": "fi",
-          "value": "Hakujen seuraaja"
-        },
-        {
-          "localeCode": "pt",
-          "value": "Controlador de pesquisa"
-        }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-      ]
-    },
-    {
-      "displayName": "Review Generation",
-      "displayNameTranslations": [
-        {
-          "localeCode": "tr",
-          "value": "Değerlendirme Oluşturma"
-        },
-        {
-          "localeCode": "cs",
-          "value": "Pozvánka k recenzi"
-        },
-        {
-          "localeCode": "de",
-          "value": "Generierung von Reviews"
-        },
-        {
-          "localeCode": "hu",
-          "value": "Vélemény létrehozása"
-        },
-        {
-          "localeCode": "fi",
-          "value": "Arvostelun generointi"
-        },
-        {
-          "localeCode": "sk",
-          "value": "Vytvorenie recenzie"
-        },
-        {
-          "localeCode": "es",
-          "value": "Generación de reseñas"
-        },
-        {
-          "localeCode": "nl",
-          "value": "Reviews genereren"
-        },
-        {
-          "localeCode": "pt",
-          "value": "Criação de opinião"
-        }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "firstPartyReviewPage"
-        },
-        {
-          "id": "reviewGenerationUrl"
-        }
-      ]
-    }
-  ]
+    ]
 }
